@@ -1,0 +1,196 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+/* ----------typography------- */
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #050931;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #050931;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #131848;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3C3F60;
+    line-height: 25px;
+}
+
+p {
+    color: #8F91A1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* navbar */
+.navbar {
+    background-color: #ECF1F4;
+    padding: 15px 0px;
+}
+
+.navbar .nav-item {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636972;
+    margin: 0px 20px;
+    padding: 0px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #55BC7E;
+}
+
+.navbar .navbar-btn {
+    background-color: #55BC7E;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .navbar-btn:hover {
+    background-color: #49A16C;
+}
+
+/* ----------------Start Hero----------------*/
+.hero {
+    height: 90vh;
+    background-color: #ECF1F4;
+    position: relative;
+}
+
+.hero .dots {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hero span {
+    background-color: #D3E8E1;
+    color: #4E6570;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.hero .form-control,
+.subscribe .form-control {
+    padding: 18px 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #CED3D9;
+}
+
+.hero .hero-btn,
+.subscribe .hero-btn {
+    background-color: #55BC7E;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 4px 4px 0;
+    transition: all .4s ease-in-out;
+    font-size: 15px;
+}
+
+.hero .hero-btn:hover {
+    background-color: #49A16C;
+}
+
+.hero .form-shadow {
+    box-shadow: 0px 10px 25px 0px rgba(70, 85, 103, 0.08);
+}
+
+/* ----------------Start About----------------*/
+.about {
+    padding: 100px 0;
+}
+
+.about .about-box {
+    padding: 0 60px;
+    text-align: center;
+}
+
+/* ----------------Start On Section----------------*/
+.on {
+    padding: 100px 0;
+    background-color: #ECF1F4;
+    position: relative;
+}
+
+.on .dots {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.more-btn {
+    text-decoration: none;
+    color: #373B61;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .4s ease-in-out;
+}
+
+.more-btn:hover {
+    color: #49A16C;
+}
+
+/* ----------------Start Subscribe Section----------------*/
+.subscribe {
+    padding: 70px 0;
+    background-color: #344763;
+}
+
+/* ----------------Start on_2 Section----------------*/
+.on_2 {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.on_2 .dots {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* ----------------Start services Section----------------*/
+.services {
+    height: 110vh;
+    background-color: #ECF1F4;
+}
+
+.servicesCard {
+    background-color: #fff;
+    height: 28vh;
+    text-align: center;
+}
